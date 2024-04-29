@@ -56,93 +56,6 @@
           </svg>
         </button>
       </div>
-
-      <!-- Mobile menu -->
-
-      <div class="mobile-overlay">
-        <div class="container mobile">
-          <button type="button" class="button-close">
-            <svg class="close-icon" width="24" height="24">
-              <use href="./images/icons.svg#icon-close"></use>
-            </svg>
-          </button>
-
-          <div class="mobile__container">
-            <ul class="mobile__list">
-              <li class="mobile__item">
-                <a
-                  href="./index.html"
-                  class="mobile__link mobile__link--current"
-                  >Studio</a
-                >
-              </li>
-              <li class="mobile__item">
-                <a href="./portfolio.html" class="mobile__link">Portfolio</a>
-              </li>
-              <li class="mobile__item">
-                <a href="./index.html" class="mobile__link">Contacts</a>
-              </li>
-            </ul>
-            <ul class="phone">
-              <li class="phone__item phone__item-first">
-                <a
-                  class="phone__link phone__link--current"
-                  href="tel:+380961111111"
-                >
-                  +38 096 111 11 11</a
-                >
-              </li>
-              <li class="phone__item">
-                <a class="phone__link" href="mailto:info@devstudio.com">
-                  info@devstudio.com</a
-                >
-              </li>
-            </ul>
-            <ul class="social-list">
-              <li class="social-item">
-                <a
-                  href="https://www.instagram.com/"
-                  target="_blank"
-                  class="link"
-                >
-                  <svg class="team-icon" width="16" height="16">
-                    <use href="./images/icons.svg#icon-instagram"></use>
-                  </svg>
-                </a>
-              </li>
-              <li class="social-item">
-                <a href="https://twitter.com/" target="_blank" class="link">
-                  <svg class="team-icon" width="16" height="16">
-                    <use href="./images/icons.svg#icon-twitter"></use>
-                  </svg>
-                </a>
-              </li>
-              <li class="social-item">
-                <a
-                  href="https://www.facebook.com/"
-                  target="_blank"
-                  class="link"
-                >
-                  <svg class="team-icon" width="16" height="16">
-                    <use href="./images/icons.svg#icon-facebook"></use>
-                  </svg>
-                </a>
-              </li>
-              <li class="social-item">
-                <a
-                  href="https://www.linkedin.com/"
-                  target="_blank"
-                  class="link"
-                >
-                  <svg class="team-icon" width="16" height="16">
-                    <use href="./images/icons.svg#icon-linkedin"></use>
-                  </svg>
-                </a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
     </header>
 
     <main>
@@ -217,20 +130,17 @@
       <!--Section 3-->
 
       <section class="section team">
-        <div class="container team-content">
+        <div class="container">
           <h2 class="team-title">Our Team</h2>
           <ul class="card-set">
             <!--Person 1-->
             <li class="item">
               <img
-                srcset="
-                  ./images/people/mark264x1.jpg 1x,
-                  ./images/people/mark264x2.jpg 2x
-                "
-                src="./images/people/mark264x1.jpg"
+                src="./images/p-1.jpg"
                 alt="Mark Guerrero"
+                width="264"
+                height="260"
               />
-
               <div class="card-content">
                 <h3 class="team-card-title">Mark Guerrero</h3>
                 <p class="team-card-text">Product Designer</p>
@@ -282,12 +192,10 @@
             <!--Person 2-->
             <li class="item">
               <img
-                srcset="
-                  ./images/people/tom264x1.jpg 1x,
-                  ./images/people/tom264x2.jpg 2x
-                "
-                src="./images/people/tom264x1.jpg"
+                src="./images/p-2.jpg"
                 alt="Tom Ford"
+                width="264"
+                height="260"
               />
               <div class="card-content">
                 <h3 class="team-card-title">Tom Ford</h3>
@@ -340,11 +248,7 @@
             <!--Person 3-->
             <li class="item">
               <img
-                srcset="
-                  ./images/people/cam264x1.jpg 1x,
-                  ./images/people/cam264x2.jpg 2x
-                "
-                src="./images/people/cam264x1.jpg"
+                src="./images/p-3.jpg"
                 alt="Camila Garcia"
                 width="264"
                 height="260"
@@ -400,11 +304,7 @@
             <!--Person 4-->
             <li class="item">
               <img
-                srcset="
-                  ./images/people/dan264x1.jpg 1x,
-                  ./images/people/dan264x2.jpg 2x
-                "
-                src="./images/people/dan264x1.jpg"
+                src="./images/p-4.jpg"
                 alt="Daniel Wilson"
                 width="264"
                 height="260"
@@ -462,40 +362,19 @@
 
       <!--Section 4-->
 
-      <section class="section portfolio">
+      <!-- <section class="section portfolio">
         <div class="container">
           <h2 class="project-title">Our Portfolio</h2>
-          <ul class="project-set">
-            <!--Project card 1-->
-            <li class="item">
+          <ul class="project-set"> -->
+      <!--Project card 1-->
+      <!-- <li class="item">
               <div class="thumb">
-                <picture>
-                  <source
-                    srcset="
-                      ./images/mob/pc1mob@1x.jpg 1x,
-                      ./images/mob/pc1mob@2x.jpg 2x
-                    "
-                    media="(max-width: 320px)"
-                  />
-                  <source
-                    srcset="
-                      ./images/tab/1tab1x.jpg 1x,
-                      ./images/tab/1tab2x.jpg 2x
-                    "
-                    media="(min-width: 768px)"
-                  />
-                  <source
-                    srcset="
-                      ./images/desk/1desk1x.jpg 1x,
-                      ./images/desk/1desk2x.jpg 2x
-                    "
-                    media="(min-width: 1158px)"
-                  />
-                  <img
-                    src="./images/mob/pc1mob@1x.jpg"
-                    alt="portfolio picture"
-                  />
-                </picture>
+                <img
+                  src="./images/pc-1.jpg"
+                  alt="Banking App"
+                  width="360"
+                  height="300"
+                />
 
                 <p class="overlay">
                   14 Stylish and User-Friendly App Design Concepts · Task
@@ -508,38 +387,17 @@
                 <h3 class="project-card-title">Banking App</h3>
                 <p class="project-card-text">App</p>
               </div>
-            </li>
+            </li> -->
 
-            <!--Project card 2-->
-            <li class="item">
+      <!--Project card 2-->
+      <!-- <li class="item">
               <div class="thumb">
-                <picture>
-                  <source
-                    srcset="
-                      ./images/mob/pc2mob@1x.jpg 1x,
-                      ./images/mob/pc2mob@2x.jpg 2x
-                    "
-                    media="(max-width: 320px)"
-                  />
-                  <source
-                    srcset="
-                      ./images/tab/2tab1x.jpg 1x,
-                      ./images/tab/2tab2x.jpg 2x
-                    "
-                    media="(min-width: 768px)"
-                  />
-                  <source
-                    srcset="
-                      ./images/desk/2desk1x.jpg 1x,
-                      ./images/desk/2desk2x.jpg 2x
-                    "
-                    media="(min-width: 1158px)"
-                  />
-                  <img
-                    src="./images/mob/pc2mob@1x.jpg"
-                    alt="portfolio picture"
-                  />
-                </picture>
+                <img
+                  src="./images/pc-2.jpg"
+                  alt="Cashless Payment"
+                  width="360"
+                  height="300"
+                />
 
                 <p class="overlay">
                   14 Stylish and User-Friendly App Design Concepts · Task
@@ -551,38 +409,17 @@
                 <h3 class="project-card-title">Cashless Payment</h3>
                 <p class="project-card-text">Marketing</p>
               </div>
-            </li>
+            </li> -->
 
-            <!--Project card 3-->
-            <li class="item">
+      <!--Project card 3-->
+      <!-- <li class="item">
               <div class="thumb">
-                <picture>
-                  <source
-                    srcset="
-                      ./images/mob/pc3mob@1x.jpg 1x,
-                      ./images/mob/pc3mob@2x.jpg 2x
-                    "
-                    media="(max-width: 320px)"
-                  />
-                  <source
-                    srcset="
-                      ./images/tab/3tab1x.jpg 1x,
-                      ./images/tab/3tab2x.jpg 2x
-                    "
-                    media="(min-width: 768px)"
-                  />
-                  <source
-                    srcset="
-                      ./images/desk/3desk1x.jpg 1x,
-                      ./images/desk/3desk2x.jpg 2x
-                    "
-                    media="(min-width: 1158px)"
-                  />
-                  <img
-                    src="./images/mob/pc3mob@1x.jpg"
-                    alt="portfolio picture"
-                  />
-                </picture>
+                <img
+                  src="./images/pc-3.jpg"
+                  alt="Meditation App"
+                  width="360"
+                  height="300"
+                />
 
                 <p class="overlay">
                   14 Stylish and User-Friendly App Design Concepts · Task
@@ -594,38 +431,17 @@
                 <h3 class="project-card-title">Meditation App</h3>
                 <p class="project-card-text">App</p>
               </div>
-            </li>
+            </li> -->
 
-            <!--Project card 4-->
-            <li class="item">
+      <!--Project card 4-->
+      <!-- <li class="item">
               <div class="thumb">
-                <picture>
-                  <source
-                    srcset="
-                      ./images/mob/pc4mob@1x.jpg 1x,
-                      ./images/mob/pc4mob@2x.jpg 2x
-                    "
-                    media="(max-width: 320px)"
-                  />
-                  <source
-                    srcset="
-                      ./images/tab/4tab1x.jpg 1x,
-                      ./images/tab/4tab2x.jpg 2x
-                    "
-                    media="(min-width: 768px)"
-                  />
-                  <source
-                    srcset="
-                      ./images/desk/4desk1x.jpg 1x,
-                      ./images/desk/4desk2x.jpg 2x
-                    "
-                    media="(min-width: 1158px)"
-                  />
-                  <img
-                    src="./images/mob/pc4mob@1x.jpg"
-                    alt="portfolio picture"
-                  />
-                </picture>
+                <img
+                  src="./images/pc-4.jpg"
+                  alt="Taxi Service"
+                  width="360"
+                  height="300"
+                />
 
                 <p class="overlay">
                   14 Stylish and User-Friendly App Design Concepts · Task
@@ -637,38 +453,17 @@
                 <h3 class="project-card-title">Taxi Service</h3>
                 <p class="project-card-text">Marketing</p>
               </div>
-            </li>
+            </li> -->
 
-            <!--Project card 5-->
-            <li class="item">
+      <!--Project card 5-->
+      <!-- <li class="item">
               <div class="thumb">
-                <picture>
-                  <source
-                    srcset="
-                      ./images/mob/pc5mob@1x.jpg 1x,
-                      ./images/mob/pc5mob@2x.jpg 2x
-                    "
-                    media="(max-width: 320px)"
-                  />
-                  <source
-                    srcset="
-                      ./images/tab/5tab1x.jpg 1x,
-                      ./images/tab/5tab2x.jpg 2x
-                    "
-                    media="(min-width: 768px)"
-                  />
-                  <source
-                    srcset="
-                      ./images/desk/5desk1x.jpg 1x,
-                      ./images/desk/5desk2x.jpg 2x
-                    "
-                    media="(min-width: 1158px)"
-                  />
-                  <img
-                    src="./images/mob/pc5mob@1x.jpg"
-                    alt="portfolio picture"
-                  />
-                </picture>
+                <img
+                  src="./images/pc-5.jpg"
+                  alt="Screen Illustrations"
+                  width="360"
+                  height="300"
+                />
 
                 <p class="overlay">
                   14 Stylish and User-Friendly App Design Concepts · Task
@@ -680,38 +475,17 @@
                 <h3 class="project-card-title">Screen Illustrations</h3>
                 <p class="project-card-text">Design</p>
               </div>
-            </li>
+            </li> -->
 
-            <!--Project card 6-->
-            <li class="item">
+      <!--Project card 6-->
+      <!-- <li class="item">
               <div class="thumb">
-                <picture>
-                  <source
-                    srcset="
-                      ./images/mob/pc6mob@1x.jpg 1x,
-                      ./images/mob/pc6mob@2x.jpg 2x
-                    "
-                    media="(max-width: 320px)"
-                  />
-                  <source
-                    srcset="
-                      ./images/tab/6tab1x.jpg 1x,
-                      ./images/tab/6tab2x.jpg 2x
-                    "
-                    media="(min-width: 768px)"
-                  />
-                  <source
-                    srcset="
-                      ./images/desk/6desk1x.jpg 1x,
-                      ./images/desk/6desk2x.jpg 2x
-                    "
-                    media="(min-width: 1158px)"
-                  />
-                  <img
-                    src="./images/mob/pc6mob@1x.jpg"
-                    alt="portfolio picture"
-                  />
-                </picture>
+                <img
+                  src="./images/pc-6.jpg"
+                  alt="Online Courses"
+                  width="360"
+                  height="300"
+                />
 
                 <p class="overlay">
                   14 Stylish and User-Friendly App Design Concepts · Task
@@ -726,11 +500,11 @@
             </li>
           </ul>
         </div>
-      </section>
+      </section> -->
     </main>
 
     <!--Footer-->
-    <footer class="section footer">
+    <!-- <footer class="section footer">
       <div class="container footer-content">
         <div class="logo-container">
           <a class="footer-logo" href="./index.html"
@@ -789,6 +563,7 @@
                 placeholder="E-mail"
               />Subscribe</label
             >
+
             <button class="subscribe-button" type="submit">
               Subscribe
               <svg class="subscribe-icon" width="24" height="24">
@@ -798,21 +573,21 @@
           </form>
         </div>
       </div>
-    </footer>
+    </footer> -->
 
+    <!-- <div class="modal-overlay"> -->
     <!--Модальне вікно-->
-    <div class="modal-overlay">
-      <div class="modal">
+    <!-- <div class="modal">
         <button class="button-close" type="button">
           <svg class="close-icon" width="8" height="8">
             <use href="./images/icons.svg#icon-close"></use>
           </svg>
         </button>
 
-        <p class="order-text">Leave your contacts and we will call you back</p>
+        <p class="order-text">Leave your contacts and we will call you back</p> -->
 
-        <!--Form-->
-        <form>
+    <!--Form-->
+    <!-- <form>
           <div class="order-field">
             <label class="order-label" for="user-name">Name</label>
             <div class="order-field-content">
@@ -826,9 +601,9 @@
                 <use href="./images/icons.svg#icon-person"></use>
               </svg>
             </div>
-          </div>
+          </div> -->
 
-          <div class="order-field">
+    <!-- <div class="order-field">
             <label class="order-label" for="phone">Phone</label>
             <div class="order-field-content">
               <input class="order-input" type="tel" name="phone" id="phone" />
@@ -836,9 +611,9 @@
                 <use href="./images/icons.svg#icon-phone"></use>
               </svg>
             </div>
-          </div>
+          </div> -->
 
-          <div class="order-field">
+    <!-- <div class="order-field">
             <label class="order-label" for="mail">Email</label>
             <div class="order-field-content">
               <input class="order-input" type="email" name="mail" id="mail" />
@@ -846,9 +621,9 @@
                 <use href="./images/icons.svg#icon-email"></use>
               </svg>
             </div>
-          </div>
+          </div> -->
 
-          <div class="order-field comment">
+    <!-- <div class="order-field comment">
             <label class="order-label" for="user-comment">Comment</label>
             <textarea
               class="comment-input"
@@ -856,9 +631,10 @@
               id="user-comment"
               placeholder="Text input"
             ></textarea>
-          </div>
+          </div> -->
 
-          <div class="order-field checkbox">
+    <!--5-->
+    <!-- <div class="order-field checkbox">
             <input
               class="checkbox-input visually-hidden"
               type="checkbox"
@@ -879,8 +655,33 @@
           </div>
 
           <button class="order-button" type="button">Send</button>
-        </form>
-      </div>
-    </div>
+        </form> -->
+    <!-- </div> -->
+    <!-- </div> -->
   </body>
 </html>
+
+<!-- <picture>
+  <source
+    srcset="
+      ./images/portfolio-img-desk.jpg    1x,
+      ./images/portfolio-img-desk@2x.jpg 2x
+    "
+    media="(min-width: 1158px)"
+  />
+  <source
+    srcset="
+      ./images/portfolio-img-tab.jpg     1x,
+      ./images/portfolio-img-tab-@2x.jpg 2x
+    "
+    media="(min-width: 768px)"
+  />
+  <source
+    srcset="
+      ./images/portfolio-img-mob.jpg     1x,
+      ./images/portfolio-img-mob-@2x.jpg 2x
+    "
+    media="(max-width: 767px)"
+  />
+  <img src="./images/portfolio-img-mob.jpg" alt="portfolio picture" />
+</picture> -->
